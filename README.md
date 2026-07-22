@@ -11,7 +11,7 @@
 
 | プラットフォーム | Google日本語入力 / Mozc | Microsoft IME | 標準IME (iOS/macOS) |
 |---|---|---|---|
-| **Windows** | ✅ 完全対応 | ✅ 対応 | — |
+| **Windows** | ✅ 完全対応 | ✅ [`msime-utf16le/`](./msime-utf16le/) 参照 | — |
 | **Mac** | ✅ 3形式対応 | — | [`macos-compatible/`](./macos-compatible/) と [`macos-plist/`](./macos-plist/) 参照 |
 | **Linux** | ✅ 対応 (Mozcが標準) | — | N/A（Mozcがデフォルト） |
 | **ChromeOS** | ✅ 完全対応（内蔵） | — | — |
@@ -30,7 +30,8 @@
 
 > 💡 **iOSユーザーへ**: 標準IME・Gboardとも辞書の一括インポートに非対応です。ATOK for iOS（有料）のみ辞書インポートが可能です。  
 > 💡 **Macユーザーへ**: 標準IMEでは2つのインポート方法があります。① [`macos-plist/`](./macos-plist/) の `.plist` をドラッグ&ドロップでユーザ辞書に一括登録（iCloud同期対応）、② [`macos-compatible/`](./macos-compatible/) のカンマ区切りテキストを追加辞書に読込。Google日本語入力 or Mozc をお使いの方はルートのUTF-8版がそのまま使えます。ATOK for Mac の方は [`atok-utf16/`](./atok-utf16/) を。  
-> 💡 **ATOKユーザーへ**: UTF-16版を `atok-utf16/` フォルダに用意しています。ファイル名の先頭に `atok-utf16/` を付けてダウンロードしてください。  
+> 💡 **MS-IMEユーザーへ**: ルートのUTF-8版は読み込めません。[`msime-utf16le/`](./msime-utf16le/) フォルダのUTF-16LE(BOM付き)版を使ってください。「ユーザー辞書ツール → ツール → テキストファイルから登録」でインポートできます。  
+> 💡 **ATOKユーザーへ**: UTF-16版を `atok-utf16/` フォルダに用意しています。  
 > 💡 **ChromeOSユーザーへ**: ChromebookにはGoogle日本語入力が内蔵されています。Windows/Macと同じ手順でインポートできます。
 
 ---
