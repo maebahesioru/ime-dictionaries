@@ -15,6 +15,7 @@
 | `hikakinmania-gaymasuo_ime_dictionary.txt` | 1,194行 | ヒカキンマニア用語（ヒカマニ語録/キャラ/構文等） |
 | `hikamer_ime_dictionary.txt` | 1,840行 | ヒカマー界隈語録（ヒカマーズ/アルカイダー/作品名等） |
 | `inmu_ime_dictionary.txt` | 1,072行 | 淫夢語録（野獣先輩/KMR/TNOK等） |
+| `all_ime_dictionary.txt` | 5,704行 | 🌟 全辞書まとめ版（1ファイルで全5辞書） |
 
 **合計: 5,704語**
 
@@ -22,11 +23,13 @@
 
 ## 📥 インポート方法
 
-### Google 日本語入力 (Windows)
-1. タスクトレイの「あ」アイコンを右クリック → **辞書ツール**
+### Google 日本語入力 / Mozc (Windows / Linux / Chromebook)
+1. タスクトレイのIMEアイコンを右クリック → **辞書ツール**
 2. **管理** → **新規辞書にインポート**
 3. ダウンロードした `.txt` ファイルを選択
 4. 文字コードは **UTF-8** を選択
+
+> 💡 Mozc は Google 日本語入力のオープンソース版なので、フォーマットもインポート手順も共通です。Linux (ibus-mozc / fcitx-mozc / emacs-mozc) でも同じ手順で使えます。
 
 ### Microsoft IME (Windows 10/11)
 1. タスクトレイの「あ」/「A」アイコンを右クリック → **ユーザー辞書ツール**
