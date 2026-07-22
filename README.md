@@ -12,7 +12,7 @@
 | プラットフォーム | Google日本語入力 / Mozc | Microsoft IME | 標準IME (iOS/macOS) |
 |---|---|---|---|
 | **Windows** | ✅ 完全対応 | ✅ 対応 | — |
-| **Mac** | ✅ 対応 (要インストール) | — | ❌ 形式違い |
+| **Mac** | ✅ 対応 [`macos-compatible/`](./macos-compatible/) 参照 | — | ❌ 形式違い |
 | **Linux** | ✅ 対応 (ibus/fcitx) | — | ❌ |
 | **ChromeOS** | ✅ 完全対応（内蔵） | — | — |
 | **Android** | ✅ Gboard / Mozc対応 | — | — |
@@ -29,7 +29,7 @@
 | **azooKey** | ❌ 非対応 | ユーザー辞書の一括インポート機能なし（iOS/Mac/Windows共通） |
 
 > 💡 **iOSユーザーへ**: 標準IME・Gboardとも辞書の一括インポートに非対応です。ATOK for iOS（有料）のみ辞書インポートが可能です。  
-> 💡 **Macユーザーへ**: 標準日本語入力は非対応です。Google日本語入力（無料）または Mozc をインストールしてください。ATOK for Mac をお使いの方は [`atok-utf16/`](./atok-utf16/) フォルダをご利用ください。  
+> 💡 **Macユーザーへ**: 標準日本語入力の方は [`macos-compatible/`](./macos-compatible/) フォルダのカンマ区切り版を使ってください（ドラッグ&ドロップで追加辞書に読込可）。Google日本語入力（無料）または Mozc をお使いの方はルートのUTF-8版がそのまま使えます。ATOK for Mac をお使いの方は [`atok-utf16/`](./atok-utf16/) フォルダをご利用ください。  
 > 💡 **ATOKユーザーへ**: UTF-16版を `atok-utf16/` フォルダに用意しています。ファイル名の先頭に `atok-utf16/` を付けてダウンロードしてください。  
 > 💡 **ChromeOSユーザーへ**: ChromebookにはGoogle日本語入力が内蔵されています。Windows/Macと同じ手順でインポートできます。
 
