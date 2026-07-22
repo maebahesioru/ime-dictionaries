@@ -13,7 +13,7 @@
 |---|---|---|---|
 | **Windows** | ✅ 完全対応 | ✅ 対応 | — |
 | **Mac** | ✅ 3形式対応 | — | [`macos-compatible/`](./macos-compatible/) と [`macos-plist/`](./macos-plist/) 参照 |
-| **Linux** | ✅ 対応 (ibus/fcitx) | — | ❌ |
+| **Linux** | ✅ 対応 (Mozcが標準) | — | N/A（Mozcがデフォルト） |
 | **ChromeOS** | ✅ 完全対応（内蔵） | — | — |
 | **Android** | ✅ Gboard / Mozc対応 | — | — |
 | **iOS** | ❌ Gboard非対応 | — | ❌ 一括登録不可 |
